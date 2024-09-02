@@ -19,8 +19,7 @@ body{
 }
 .parent{
   /* height: 55px; */
-/*   background-color: rgb(219, 4, 4); */
-  background-color: blue;
+  background-color: rgb(219, 4, 4);
   height: 60px;
   display: flex;
   justify-content: center;
