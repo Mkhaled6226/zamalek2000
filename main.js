@@ -22,6 +22,7 @@ const list = document.querySelector('.clicklist')
 
 burger.addEventListener('click',()=>{
 list.classList.toggle('show')
+document.body.classList.toggle('noscroll')
 })
 
 const kits = document.querySelectorAll('.kit img')
@@ -43,6 +44,7 @@ kits.forEach((kit)=>{
   //   kit.style.opacity = '1'
   // })
 })
+
 // const uno = document.querySelector('.uno')
 // console.log(uno)
 
@@ -66,10 +68,15 @@ kits.forEach((kit)=>{
 // Get a reference to the input element
 
 const menu = document.querySelectorAll('.clicklist li')
-
+// console.log(menu)
 
 menu.forEach((li)=>{
   li.addEventListener('click',()=>{
     list.classList.toggle('show');
+    document.body.classList.toggle('noscroll')
   })
 })
+
+
+
+
