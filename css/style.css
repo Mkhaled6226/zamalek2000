@@ -959,3 +959,6 @@ h1{
 .inc{
   height: 100% !important;
 }
+.noscroll{
+  overflow: hidden;
+}
