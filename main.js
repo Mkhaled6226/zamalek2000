@@ -22,7 +22,7 @@ const list = document.querySelector('.clicklist')
 
 burger.addEventListener('click',()=>{
 list.classList.toggle('show')
-document.body.classList.toggle('noscroll')
+// document.body.classList.toggle('noscroll')
 })
 
 const kits = document.querySelectorAll('.kit img')
@@ -73,7 +73,7 @@ const menu = document.querySelectorAll('.clicklist li')
 menu.forEach((li)=>{
   li.addEventListener('click',()=>{
     list.classList.toggle('show');
-    document.body.classList.toggle('noscroll')
+    // document.body.classList.toggle('noscroll')
   })
 })
 
